@@ -431,17 +431,18 @@ a {
   border: 2px solid var(--primary-text-color);
   background-color: var(--primary-white-color);
   border-radius: 2px;
-  /* background-image: url(../images/icon-check.svg); */
 }
+
 .check-input:checked + .icon-checkbox {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
   background-origin: border-box;
 }
 .check-input:focus + .icon-checkbox {
-  /* background-image: url(../images/icon-quare.svg); */
   border: 2px solid var(--accent-color);
 }
 
