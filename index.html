@@ -80,7 +80,7 @@
             <form>
               <p class="promo-modal">Оставьте свои данные, мы вам перезвоним</p>
               <ul class="forma-list">
-                <li>
+                <li class="forma-item">
                   <label class="label-name">
                     <span class="label-correction">Имя</span>
                     <span class="icon-position">
@@ -91,7 +91,7 @@
                     </span>
                   </label>
                 </li>
-                <li>
+                <li class="forma-item">
                   <label class="label-name">
                     <span class="label-correction">Телефон</span>
                     <span class="icon-position">
@@ -102,7 +102,7 @@
                     </span>
                   </label>
                 </li>
-                <li>
+                <li class="forma-item">
                   <label class="label-name">
                     <span class="label-correction">Почта</span>
                     <span class="icon-position">
@@ -113,26 +113,31 @@
                     </span>
                   </label>
                 </li>
+                <li class="forma-item">
+                  <label class="label-name">
+                    <span class="label-correction">Комментарий</span>
+                    <textarea
+                      class="textarea-comment"
+                      name="comment"
+                      placeholder="Введите текст"
+                    ></textarea>
+                  </label>
+                </li>
               </ul>
 
-              <label class="label-nam">
-                <span class="label-correction">Комментарий</span>
-                <textarea
-                  class="textarea-comment"
-                  name="comment"
-                  placeholder="Введите текст"
-                ></textarea>
-              </label>
+              <!-- Checkbox -->
 
               <div class="form-checkbox">
                 <label class="label-checkbox">
-                  <input type="checkbox" name="policy" class="hide-input" />
-                  <svg class="icon-form-checkbox">
+                  <input class="check-input hide-input" type="checkbox" name="policy" />
+                  <!-- <svg class="icon-form-checkbox">
                     <use href="./images/icons.svg#icon-quare"></use>
-                  </svg>
-
-                  Соглашаюсь с рассылкой и принимаю
-                  <a href="" class="policy-link">Условия договора</a>
+                  </svg> -->
+                  <span class="icon-checkbox"></span>
+                  <span>
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="" class="policy-link"> Условия договора</a></span
+                  >
                 </label>
               </div>
 
